@@ -60,6 +60,44 @@ print(cars)
 
 print(len(cars))
 
+for car in cars:
+    print(car)
+
+# range创建数字列表
+for value in range(1, 5):
+    print("value = ", value)
+
+numbers = list(range(10, 21))
+print(numbers)
+
+even_numbers = list(range(2, 11, 2))
+print(even_numbers)
+
+
+squares = []
+for value in range(1, 11):
+    square = value**2
+    squares.append(square)
+print(squares)
+
+
+print(min(squares))
+print(max(squares))
+print(sum(squares))
+
+
+squares = [value**2 for value in range(2, 13, 2)]
+print(squares)
+
+players = ['aimingChen', 'Fish', 'Justin', 'eil', 'michael']
+print(players[0:3])
+print(players[1:4])
+print(players[:4])
+print(players[2:])
+print(players[-3:])
+print(players[:-2])
+
+
 
 
 
