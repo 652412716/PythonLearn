@@ -98,6 +98,17 @@ print(players[-3:])
 print(players[:-2])
 
 
+for player in players[:3]:
+    print(player)
+
+my_food = ["pizza", "coke", "cake"]
+friend_food = my_food[1:]
+
+my_food.append("rice")
+friend_food.append("iceCream")
+print(friend_food)
+
+
 
 
 
